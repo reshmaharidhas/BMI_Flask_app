@@ -1,0 +1,20 @@
+{% extends "basefile.html" %}
+{% block content %}
+<div class="text-dark container pt-5">
+    <div class="row">
+        <div class="col-md-6 mx-auto text-center">
+            <form action="" method="POST">
+                <label class="form-label"> Enter your weight in kg</label><br>
+                <input type="number" name="weight_input" class="form-control" placeholder="Enter weight" step="0.01"><br>
+                <label class="form-label"> Enter your height in metre</label><br>
+                <input type="number" name="height_input" class="form-control" placeholder="Enter height" step="0.01"><br>
+                <button type="submit" value="findbmi" class="btn btn-primary text-white">Find BMI</button>
+            </form>
+            <div class="container pt-3 text-dark">
+                <h3 class="text-dark">{{currentBMI}}</h3>
+                <h4 class="text-dark">{{statusBMI}}</h4>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
