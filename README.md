@@ -13,5 +13,14 @@ BMI Calculator built using Flask and Python as web app
 - Bootstrap 5
 - Flask
 
+# Development Tools
+- PyCharm IDE
+
+# Deployment Tools
+- Vercel
+
 ## Screenshots
 <img width="1919" height="967" alt="screenshot_flask_bmi_app_1" src="https://github.com/user-attachments/assets/ace2e63f-ea2c-4ce6-825c-f293fb44ac94" />
+
+## Bugs and Feedback
+For bugs and feedback, please use <a href="https://github.com/reshmaharidhas/BMI_Flask_app/issues">GitHub Issues</a>
